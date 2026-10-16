@@ -79,3 +79,17 @@ CORRECTIFS TECHNIQUES
 
 MISE A JOUR : le texte de la section « Qui suis-je ? » présente désormais Thomas.
 Attention : le formulaire du site est encore configuré pour Netlify Forms. Sur GitHub Pages, il faudra connecter un service de formulaire externe avant que les messages envoyés via le formulaire arrivent par e-mail.
+
+
+MISE À JOUR POUR GITHUB PAGES — FORMULAIRE DE CONTACT
+
+Le formulaire a été adapté à FormSubmit, un service externe qui transmet les demandes à kizunasas@proton.me. Aucun serveur n’est nécessaire sur GitHub Pages.
+
+À FAIRE APRÈS AVOIR PUBLIÉ LES FICHIERS :
+1. Sur GitHub, ouvrez le dépôt https://github.com/deltaraen/Kizuna-Studio.
+2. Remplacez les fichiers par ceux de cette archive en conservant la structure : index.html et merci.html doivent être à la racine du dépôt, et le dossier assets doit rester à côté.
+3. Une fois le site déployé, ouvrez https://deltaraen.github.io/Kizuna-Studio/ et envoyez un message test depuis le formulaire.
+4. Lors du premier envoi, FormSubmit peut envoyer un e-mail de confirmation à kizunasas@proton.me. Ouvrez cet e-mail et cliquez sur le lien de confirmation pour autoriser la réception des messages. Vérifiez aussi les courriers indésirables.
+5. Recommencez un envoi test et vérifiez que le message arrive dans la boîte de réception.
+
+À SAVOIR : FormSubmit est un service tiers. La première demande n’est pas considérée comme testée tant que l’adresse n’a pas été confirmée et qu’un message réel n’a pas été reçu. Le service peut afficher son propre contrôle anti-spam. Ne mettez jamais de clé secrète dans les fichiers du site.
