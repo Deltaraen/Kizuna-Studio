@@ -93,3 +93,10 @@ Le formulaire a été adapté à FormSubmit, un service externe qui transmet les
 5. Recommencez un envoi test et vérifiez que le message arrive dans la boîte de réception.
 
 À SAVOIR : FormSubmit est un service tiers. La première demande n’est pas considérée comme testée tant que l’adresse n’a pas été confirmée et qu’un message réel n’a pas été reçu. Le service peut afficher son propre contrôle anti-spam. Ne mettez jamais de clé secrète dans les fichiers du site.
+
+
+CORRECTION FORMULAIRE (GitHub Pages)
+- Le formulaire utilise une soumission POST native vers https://formsubmit.co/kizunasas@proton.me.
+- Il ne doit pas envoyer les données vers une URL de GitHub Pages.
+- Après publication, envoyer un test et confirmer l’adresse de réception si FormSubmit le demande.
+- Si un 405 persiste, vérifier que le dépôt a bien reçu le nouveau index.html et que le formulaire visible utilise cette version.
