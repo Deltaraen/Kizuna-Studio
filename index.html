@@ -249,12 +249,49 @@ section[id]{scroll-margin-top:96px}
 </section>
 <section id="apropos"><div class="wrap about-grid"><div class="about-copy"><p class="eyebrow">Qui suis-je ?</p><h2>Je m’appelle Thomas.</h2><p>J’ai été restaurateur et je suis fils de restaurateurs. Je connais ce métier de l’intérieur, mais aussi les réalités des commerces : le rythme, les priorités qui changent et le besoin que les outils soient fiables.</p><p>Je sais qu’une caisse doit être simple à utiliser en plein service, qu’un menu doit être clair et qu’un site doit donner les bonnes informations sans faire perdre du temps.</p><p>Avec KIZUNA, je vous accompagne avec des explications concrètes et sans jargon inutile. On choisit les outils en fonction de vos besoins, pas l’inverse.</p></div><aside class="photo-frame about-photo"><img src="assets/portrait-terrain.webp" alt="Portrait en situation de travail dans un restaurant" loading="lazy"></aside></div></section>
 <section class="soft" id="contact"><div class="wrap contact-grid"><div><p class="eyebrow">Contact</p><h2>Parlons de votre projet.</h2><p class="lead">Vous ouvrez un établissement, changez de caisse ou souhaitez améliorer votre organisation ? Décrivez-moi votre situation. Nous ferons le point ensemble, simplement, pour voir ce qui vous serait vraiment utile.</p><div class="contact-info"><a class="contact-link" href="mailto:kizunasas@proton.me"><span aria-hidden="true">✉</span><span>kizunasas@proton.me</span></a><a class="contact-link" href="tel:+33688139886"><span aria-hidden="true">☎</span><span>06 88 13 98 86</span></a></div></div><form class="form-card" id="contact-form" name="contact-kizuna" method="POST" action="https://formsubmit.co/kizunasas@proton.me"><p class="eyebrow">Faisons le point ensemble</p><input type="hidden" name="_subject" value="Nouvelle demande depuis le site KIZUNA"><input type="hidden" name="_url" value="https://deltaraen.github.io/Kizuna-Studio/"><input type="hidden" name="_next" value="https://deltaraen.github.io/Kizuna-Studio/merci.html"><input type="hidden" name="_template" value="table"><input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px"><div class="form-row"><div class="field"><label for="name">Votre nom</label><input id="name" name="name" autocomplete="name" required placeholder="Nom et prénom" aria-describedby="name-error"><p class="field-error" id="name-error">Merci d’indiquer votre nom.</p></div><div class="field"><label for="business">Votre établissement</label><input id="business" name="business" autocomplete="organization" placeholder="Nom du commerce (facultatif)"></div></div><div class="field"><label for="email">Votre adresse e-mail</label><input id="email" name="email" type="email" autocomplete="email" required placeholder="vous@exemple.fr" aria-describedby="email-error"><p class="field-error" id="email-error">Saisissez une adresse e-mail valide.</p></div><div class="field"><label for="project">Votre besoin</label><select id="project" name="project" required aria-describedby="project-error"><option value="" disabled selected>Choisissez une option</option><option>Choix et installation d’une caisse Square</option><option>Création ou mise en page d’un menu</option><option>Création d’un site internet</option><option>Formation aux outils Square</option><option>Un accompagnement complet</option><option>Autre demande</option></select><p class="field-error" id="project-error">Choisissez le sujet de votre demande.</p></div><div class="field"><label for="message">Parlez-moi de votre projet</label><textarea id="message" name="message" required placeholder="Quelques mots sur votre établissement et vos besoins..." aria-describedby="message-error"></textarea><p class="field-error" id="message-error">Ajoutez quelques mots sur votre projet.</p></div><button class="btn btn-primary" type="submit">Envoyer mon message <span aria-hidden="true">→</span></button><p class="form-hint">Votre demande sera transmise par e-mail. Lors du premier envoi, FormSubmit pourra vous demander de confirmer l’adresse de réception.</p><p id="form-status" class="form-hint" role="status" aria-live="polite"></p></form></div></section>
-</main><footer class="footer"><div class="wrap footer-inner"><a class="brand" href="#accueil"><span class="brand-mark" aria-hidden="true">絆</span><span class="brand-name">KIZUNA</span></a><small>Un accompagnement pensé pour votre commerce.</small><div class="footer-links"><a href="#accueil">Accueil</a><a href="#services">Services</a><a href="#contact">Contact</a><a href="confidentialite.html">Confidentialité</a></div></div></footer>
+</main><footer class="footer"><div class="wrap footer-inner"><a class="brand" href="#accueil"><span class="brand-mark" aria-hidden="true">絆</span><span class="brand-name">KIZUNA</span></a><small>Un accompagnement pensé pour votre commerce.</small><div class="footer-links"><a href="#accueil">Accueil</a><a href="#services">Services</a><a href="#contact">Contact</a><a href="mentions-legales.html">Mentions légales</a><a href="confidentialite.html">Confidentialité</a><button type="button" class="cookie-settings-link" id="open-cookie-settings">Cookies</button></div></div></footer>
 
 <div class="mobile-sticky-cta" aria-label="Contact rapide"><a class="btn btn-primary" href="#contact">Parler de mon projet <span aria-hidden="true">→</span></a></div>
 
 <script>
 // Le formulaire est envoyé directement à FormSubmit via la méthode POST native.
+</script>
+
+<style>
+.cookie-banner{position:fixed;z-index:9999;left:18px;right:18px;bottom:18px;max-width:780px;margin:0 auto;background:#fff;border:1px solid #d7e4f1;border-radius:18px;box-shadow:0 16px 55px #102f5930;padding:22px;color:#24364b;display:none}
+.cookie-banner.is-visible{display:block}.cookie-banner h2{font-size:19px;margin:0 0 7px;color:#102f59}.cookie-banner p{font-size:13px;line-height:1.55;margin:0 0 14px}.cookie-actions{display:flex;gap:9px;flex-wrap:wrap}.cookie-actions button,.cookie-settings-link{font:inherit;font-size:13px;font-weight:750;border:1px solid #c7d8e8;border-radius:10px;padding:10px 14px;background:#fff;color:#174a78;cursor:pointer}.cookie-actions .cookie-accept{background:#174a78;border-color:#174a78;color:#fff}.cookie-settings-link{padding:2px 0;border:0;background:transparent;color:inherit}.cookie-banner a{color:#174a78}@media(max-width:520px){.cookie-banner{left:10px;right:10px;bottom:10px;padding:17px}.cookie-actions{display:grid;grid-template-columns:1fr 1fr}.cookie-actions button{padding:11px 8px}.cookie-actions .cookie-accept{grid-column:1/-1}}
+</style>
+<div class="cookie-banner" id="cookie-banner" role="dialog" aria-modal="false" aria-labelledby="cookie-title" aria-describedby="cookie-description">
+  <h2 id="cookie-title">Votre confidentialité compte</h2>
+  <p id="cookie-description">KIZUNA souhaite utiliser Google Analytics pour mesurer la fréquentation du site. Aucun outil Google Analytics n’est chargé avant votre accord. Vous pouvez accepter, refuser ou consulter la <a href="confidentialite.html">politique de confidentialité</a>. Votre choix pourra être modifié à tout moment via « Cookies » en bas de page.</p>
+  <div class="cookie-actions"><button type="button" class="cookie-accept" id="cookie-accept">Tout accepter</button><button type="button" id="cookie-reject">Tout refuser</button><button type="button" id="cookie-customize">Personnaliser</button></div>
+  <div id="cookie-custom-panel" hidden style="margin-top:14px;padding-top:12px;border-top:1px solid #e1eaf2"><p><strong>Mesure d’audience (Google Analytics)</strong><br>Facultative. Si vous l’autorisez et si l’identifiant de mesure est configuré, Google Analytics pourra être chargé.</p><div class="cookie-actions"><button type="button" class="cookie-accept" id="cookie-save-yes">Autoriser la mesure</button><button type="button" id="cookie-save-no">Refuser la mesure</button></div></div>
+</div>
+<script>
+(function(){
+  // Sécurité par défaut : aucun script Google Analytics n'est chargé sans consentement explicite.
+  // À renseigner uniquement après configuration réelle de GA4 (format G-XXXXXXXXXX).
+  const GA_MEASUREMENT_ID = '';
+  const STORAGE_KEY = 'kizuna-analytics-consent-v1';
+  const banner = document.getElementById('cookie-banner');
+  const custom = document.getElementById('cookie-custom-panel');
+  function readChoice(){try{return localStorage.getItem(STORAGE_KEY)}catch(e){return null}}
+  function saveChoice(choice){try{localStorage.setItem(STORAGE_KEY,choice)}catch(e){} banner.classList.remove('is-visible');custom.hidden=true;if(choice==='accepted')loadAnalytics();}
+  function showBanner(){banner.classList.add('is-visible')}
+  function loadAnalytics(){
+    if(!GA_MEASUREMENT_ID || !/^G-[A-Z0-9]+$/.test(GA_MEASUREMENT_ID)) return;
+    if(document.querySelector('script[data-kizuna-ga="true"]')) return;
+    const script=document.createElement('script');script.async=true;script.src='https://www.googletagmanager.com/gtag/js?id='+encodeURIComponent(GA_MEASUREMENT_ID);script.dataset.kizunaGa='true';document.head.appendChild(script);
+    window.dataLayer=window.dataLayer||[];function gtag(){window.dataLayer.push(arguments)}window.gtag=gtag;gtag('js',new Date());gtag('config',GA_MEASUREMENT_ID,{'anonymize_ip':true});
+  }
+  document.getElementById('cookie-accept').addEventListener('click',()=>saveChoice('accepted'));
+  document.getElementById('cookie-reject').addEventListener('click',()=>saveChoice('rejected'));
+  document.getElementById('cookie-customize').addEventListener('click',()=>{custom.hidden=!custom.hidden});
+  document.getElementById('cookie-save-yes').addEventListener('click',()=>saveChoice('accepted'));
+  document.getElementById('cookie-save-no').addEventListener('click',()=>saveChoice('rejected'));
+  document.getElementById('open-cookie-settings').addEventListener('click',showBanner);
+  if(readChoice()==='accepted')loadAnalytics();else if(!readChoice())showBanner();
+})();
 </script>
 
 </body></html>

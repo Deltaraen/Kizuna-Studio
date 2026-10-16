@@ -100,3 +100,11 @@ CORRECTION FORMULAIRE (GitHub Pages)
 - Il ne doit pas envoyer les données vers une URL de GitHub Pages.
 - Après publication, envoyer un test et confirmer l’adresse de réception si FormSubmit le demande.
 - Si un 405 persiste, vérifier que le dépôt a bien reçu le nouveau index.html et que le formulaire visible utilise cette version.
+
+
+MISE À JOUR COOKIES ET PAGES LÉGALES (16/10/2026)
+- Fichiers ajoutés/mis à jour : mentions-legales.html, confidentialite.html et index.html.
+- La bannière permet Tout accepter, Tout refuser et Personnaliser. Le lien « Cookies » dans le pied de page permet de rouvrir les préférences.
+- Google Analytics n'est pas chargé tant qu'un consentement n'est pas enregistré et qu'un identifiant GA4 valide n'est pas renseigné.
+- Pour activer GA4, remplacez la valeur vide de GA_MEASUREMENT_ID dans le script de index.html par l'identifiant réel de la propriété GA4 (format G-XXXXXXXXXX), après avoir vérifié la configuration et les obligations applicables.
+- Le SIRET et l'adresse complète restent volontairement à compléter. Vérifier également les coordonnées légales de l'hébergeur et les durées de conservation avant publication définitive.
