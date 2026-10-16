@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="fr">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="description" content="KIZUNA accompagne les commerçants et restaurateurs dans le choix et la mise en place de leur caisse Square, la création de menus et de sites internet, et la prise en main de leurs outils.">
 <meta name="theme-color" content="#102f59">
 <meta property="og:type" content="website">
@@ -334,6 +334,26 @@ a, button { -webkit-tap-highlight-color: transparent; }
 <style>
 .cookie-banner{position:fixed;z-index:9999;left:18px;right:18px;bottom:18px;max-width:780px;margin:0 auto;background:#fff;border:1px solid #d7e4f1;border-radius:18px;box-shadow:0 16px 55px #102f5930;padding:22px;color:#24364b;display:none}
 .cookie-banner.is-visible{display:block}.cookie-banner h2{font-size:19px;margin:0 0 7px;color:#102f59}.cookie-banner p{font-size:13px;line-height:1.55;margin:0 0 14px}.cookie-actions{display:flex;gap:9px;flex-wrap:wrap}.cookie-actions button,.cookie-settings-link{font:inherit;font-size:13px;font-weight:750;border:1px solid #c7d8e8;border-radius:10px;padding:10px 14px;background:#fff;color:#174a78;cursor:pointer}.cookie-actions .cookie-accept{background:#174a78;border-color:#174a78;color:#fff}.cookie-settings-link{padding:2px 0;border:0;background:transparent;color:inherit}.cookie-banner a{color:#174a78}@media(max-width:520px){.cookie-banner{left:10px;right:10px;bottom:10px;padding:17px}.cookie-actions{display:grid;grid-template-columns:1fr 1fr}.cookie-actions button{padding:11px 8px}.cookie-actions .cookie-accept{grid-column:1/-1}}
+
+/* Mobile edge-to-edge correction: prevent fixed-width overflow and excess side gutters */
+*, *::before, *::after { box-sizing: border-box; }
+html { width: 100%; max-width: 100%; overflow-x: clip; }
+body { width: 100%; max-width: 100%; margin: 0; overflow-x: clip; }
+main, header, footer, section, nav { max-width: 100%; min-width: 0; }
+img, svg, video, canvas { max-width: 100%; height: auto; }
+.wrap { max-width: 100%; }
+@media (max-width: 600px) {
+  .wrap { width: 100% !important; max-width: 100% !important; padding-left: 16px !important; padding-right: 16px !important; margin-left: 0 !important; margin-right: 0 !important; }
+  .hero, section { max-width: 100%; }
+  .hero-grid, .intro-grid, .service-grid, .process, .contact-grid, .grid, .cards { min-width: 0; width: 100%; max-width: 100%; }
+  .hero-grid > *, .intro-grid > *, .service-grid > *, .process > *, .contact-grid > *, .grid > *, .cards > * { min-width: 0; max-width: 100%; }
+  .service, .step, .card, .contact-card { min-width: 0; max-width: 100%; }
+  h1, h2, h3, p, a, label, button { overflow-wrap: anywhere; }
+  .nav { width: 100%; max-width: 100%; padding-left: 16px; padding-right: 16px; }
+  .navlinks { min-width: 0; max-width: 100%; }
+  .hero-photo, .visual-placeholder { width: 100%; max-width: 100%; }
+}
+
 </style>
 <div class="cookie-banner" id="cookie-banner" role="dialog" aria-modal="false" aria-labelledby="cookie-title" aria-describedby="cookie-description">
   <h2 id="cookie-title">Votre confidentialité compte</h2>
